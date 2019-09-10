@@ -13,9 +13,10 @@
     "node": ">=6.2.1"
   },
   "dependencies": {
-"fwsp-config": "1.1.5",
-"hydra-express": "1.7.1",
-"fwsp-server-response": "2.2.6"  },
+    "fwsp-config": "1.1.5",
+    "hydra-express": "1.7.1",
+    "fwsp-server-response": "2.2.6"
+  },
   "devDependencies": {
     "chai": "3.5.0",
     "eslint": "3.16.0",
