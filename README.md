@@ -1,2 +1,22 @@
-# hydra-microservice-hello-world
-A simple "Hello world" hydra microservice demo
+# hello-world-service
+
+Hello world
+
+## Pre-installation
+
+It's recommended that [NVM](https://github.com/creationix/nvm) be used to manage NodeJS versions.
+The project includes an .nvmrc which specifies NodeJS 6.2.1
+
+## Installation
+
+```javascript
+$ cd hello-world-service
+$ nvm use
+$ npm install
+```
+
+## Trial
+
+```shell
+$ npm start
+```
