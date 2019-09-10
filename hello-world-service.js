@@ -20,7 +20,7 @@ config.init('./config/config.json')
     config.version = version;
     return hydraExpress.init(config.getObject(), version, () => {
       hydraExpress.registerRoutes({
-        '/v1/hello-world': require('./routes/hello-world-v1-routes')
+        '/api/hello-world': require('./routes/hello-world-v1-routes')
       });
     });
   })
